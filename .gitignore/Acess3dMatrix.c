@@ -19,7 +19,7 @@ void main(){
 			{
 				2,3,4,5,
 				6,7,8,9,
-				1,6,3,6
+				1,3,6,3
 			} 
 	};
 	
@@ -50,7 +50,7 @@ void display(int *q,int ii,int jj,int kk)
 	}
 	printf("\n");
 }
-
+/////////Show////////
 void show(int (*q)[3][4],int ii,int jj,int kk)
 {
 	int i,j,k;
@@ -67,7 +67,7 @@ void show(int (*q)[3][4],int ii,int jj,int kk)
 	printf("\n");
 	}
 }
-
+///////Print///////////
 void print(int q[][3][4],int ii,int jj,int kk)
 {
 	int i,j,k;
